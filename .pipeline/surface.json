@@ -1,0 +1,24 @@
+{
+  "_generated": true,
+  "_scaffolded_at": "2026-07-18T00:00:00Z",
+  "_note": "This file is overwritten by the scaffolder agent. Do not edit manually.",
+  "fileBudget": { "maxLines": 400, "hardLimit": 500 },
+  "routes": [
+    { "method": "GET", "path": "/api/health" },
+    { "method": "POST", "path": "/api/auth/login" }
+  ],
+  "components": [
+    { "selector": "App", "file": "web/src/App.tsx", "maxLines": 400 },
+    { "selector": "Home", "file": "web/src/pages/Home.tsx", "maxLines": 400 },
+    { "selector": "Login", "file": "web/src/pages/Login.tsx", "maxLines": 400 }
+  ],
+  "testIds": [
+    { "id": "app-ready", "element": "div", "component": "App" },
+    { "id": "home-title", "element": "h1", "component": "Home" },
+    { "id": "health-status", "element": "p", "component": "Home" },
+    { "id": "login-form", "element": "form", "component": "Login" },
+    { "id": "login-email", "element": "input", "component": "Login" },
+    { "id": "login-password", "element": "input", "component": "Login" },
+    { "id": "login-message", "element": "p", "component": "Login" }
+  ]
+}
