@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: volunteer-shifts
+  namespace: colossus-volunteer-shifts
+  labels:
+    app: volunteer-shifts
+    managed-by: colossus
+spec:
+  type: ClusterIP
+  selector:
+    app: volunteer-shifts
+  ports:
+    - port: 80
+      targetPort: 8080
